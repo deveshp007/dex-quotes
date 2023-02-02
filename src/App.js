@@ -6,6 +6,7 @@ function App() {
 
   useEffect(() => {
     fetchQuote();
+    // eslint-disable-next-line
   }, []);
 
   const fetchQuote = async () => {
